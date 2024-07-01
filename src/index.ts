@@ -1,6 +1,6 @@
 import app from "./app";
 import { testFun1, testFun, PI1, PI } from "nodejs-ts-rcc";
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 const asdf = testFun1(11, 2);
 console.log("PI=>", PI1, asdf);
 import { rsa } from "aes-encryption-module";
